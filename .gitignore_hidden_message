@@ -1,0 +1,8 @@
+# Object files
+*.o
+
+# Executables
+fixed
+# IDE/Editor files
+.vscode/
+.DS_Store
