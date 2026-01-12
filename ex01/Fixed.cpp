@@ -5,8 +5,8 @@ Fixed::Fixed() : fixedpoint(0) {
 }
 
 Fixed::Fixed(const Fixed &other) {
-  *this = other;
   std::cout << "Copy constructor called" << std::endl;
+  *this = other;
 }
 
 Fixed &Fixed::operator=(const Fixed &other) {
